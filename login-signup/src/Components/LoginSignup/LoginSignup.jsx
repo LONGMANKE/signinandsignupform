@@ -6,6 +6,8 @@ import PasswordIcon from '@mui/icons-material/Password';
 
 
 const LoginSignup = () => {
+
+  
   return (
     <div className='container'>
       <div className="header">
@@ -23,7 +25,7 @@ const LoginSignup = () => {
         </div>
         <div className="input">
           <PasswordIcon className='img'/>
-          <input type="password" placeholder='Password'/>
+          <input type="password" placeholder='Password '/>
         </div>
       </div>
       <div className="forgot-password">Lost Password? <span>Click Here!</span></div>
